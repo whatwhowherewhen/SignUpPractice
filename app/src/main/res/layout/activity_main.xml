@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="top"
     android:padding="20dp"
-    android:background="#ffff00"
+    android:background="#ffffff"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -108,12 +108,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#000000"
+            android:textColor="#ffff00"
             android:text="취소"/>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="#fffe00"
             android:text="가입"/>
     </LinearLayout>
 
